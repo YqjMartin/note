@@ -1,4 +1,4 @@
-<!-- <font size = 4>
+<font size = 4>
 
 ### Conformer: Convolution-augmented Transformer for Speech Recognition
 
@@ -123,10 +123,6 @@ $x_{o u t}=\operatorname{softmax}\left(\frac{Q K^{T}}{\sqrt{d}}\right) \cdot V \
 [CSDN](https://blog.csdn.net/v_JULY_v/article/details/134923301)
 [flash attention](https://arxiv.org/abs/2205.14135)
 [linear attention](https://arxiv.org/abs/2007.14902)
-
--->
-
-### STFT
 
 
 
