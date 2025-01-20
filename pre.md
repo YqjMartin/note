@@ -55,7 +55,7 @@ $\left[b, h e a d \_n u m, N, N\right] \times\left[b, h e a d \_n u m, N, p e r 
 1. attention后的线性映射，矩阵乘法的输入和输出形状为$[b, N, d] \times[d, d] \rightarrow[b, N, d]​$
 计算量为$2bNd^2​$
 * 最终自注意力层的输出结果为
-$x_{o u t}=\operatorname{softmax}\left(\frac{Q K^{T}}{\sqrt{d}}\right) \cdot V \cdot W_{o}+x$
+$x_{o u t}=\text{softmax}\left(\frac{Q K^{T}}{\sqrt{d}}\right) \cdot V \cdot W_{o}+x$
 
 ![attention_complexity](attention_complexity.png)
 
